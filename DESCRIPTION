@@ -36,6 +36,11 @@ Imports: caret, doParallel, dplyr, ggplot2,foreach, httr, magrittr,
          methods, plotROC, plyr, raster, reshape2, sp, leaflet
 RoxygenNote: 7.1.1
 Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
 NeedsCompilation: no
 Packaged: 
 Depends: R (>= 3.5.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
